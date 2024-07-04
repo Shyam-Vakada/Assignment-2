@@ -1,0 +1,219 @@
+1.  Write a program to add 8 to the number 2345 and then divide it by 3. Now, the modulus of the quotient is taken with 5 and then multiply the                resultant value by 5. Display the final result.(Using Assignment Operators)
+
+package Shyam;
+
+public class Project1 {
+
+	public static void main(String[] args) {
+		int number = 2345;
+		number+=8;
+		number*=3;
+		number%=5;
+		number*=5;
+		System.out.println("Final result:"+number);
+
+	}
+
+}
+
+
+2. Greatest of three numbers using nested ternary operator
+
+
+package Shyam;
+
+public class Question2 {
+
+	public static void main(String[] args) {
+		int a=25;
+		int b=37;
+		int c=19;
+		int greatest =(a>b) ? ((a>c)? a:c) :((b>c)? b:c);
+		System.out.println("The greatest number:"+greatest);
+	}
+
+}
+
+
+4.  Write a Java program to print the sum, multiply, subtract, divide and remainder of two numbers
+
+package Shyam;
+
+public class Question3 {
+
+	public static void main(String[] args) {
+		//consider code snipet
+	   int number1 = 52;
+	   int number2 = 10;
+	   System.out.println("sum of two numbers:"+number1 + number2);
+	   System.out.println("multiply of two numbers:"+number1 * number2);
+	   System.out.println("divide of two numbers:"+number1 / number2);
+	   System.out.println("subtract of two numbers:" +(number1 - number2));
+	   System.out.println("remainder of two numbers:"+number1 % number2);
+
+
+	}
+
+}
+
+
+5. 
+package Shyam;
+
+public class Question4 {
+
+	public static void main(String[] args) {
+		int a=10;
+		int b=25;
+		int c=32;
+		int d=42;
+		int e=45;
+		int calculate=(a+b+c+d+e);
+		int Average=calculate/5;
+		System.out.println("Average value:"+Average);
+		
+
+	}
+
+}
+
+
+6.  Assign values of variables 'a' and 'b' as 55 and 70 respectively and then check if both the conditions 'a < 50' and 'a < b' are true
+
+package assignment2;
+
+public class SixthQ {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int a=55,b=70;
+		System.out.println("check :"+((a<50) && (a<b)));
+	}
+
+}
+
+7. What is the output of the following code snippet & Explain? 
+       int x = 10;   
+       int y = 20;   
+       int z = x++ + ++y;   
+       System.out.println(z);  
+
+package assignment2;
+
+public class SeventhQ {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int x=10;
+		int y=20;
+		int z=x++ + ++y;
+	        System.out.println(z);
+	}
+
+}
+
+8.  Write a Java program to calculate the area of a circle given its radius? 
+
+package assignment2;
+
+public class EighthQ {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		float pi=3.14f, r=6,res;
+		res=pi*r*r;
+	        System.out.println(res);
+	}
+
+}
+
+9.  Write a Java program to compare two integers using relational operators and Write the results? 
+
+package assignment2;
+
+public class NinthQ {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int a=10,b=-6;
+		System.out.println("greater than >:"+(a>b));
+		System.out.println("less than <:"+(a<b));
+		System.out.println("greater or equals to >=:"+(a>=b));
+		System.out.println("less than or equals to <=:"+(a<=b));
+		System.out.println("is equal ==:"+(a==b));
+		System.out.println("not equal !=:"+(a!=b));
+
+	}
+
+}
+
+10. Write a Java program to compare two characters and print the results? 
+
+package assignment2;
+
+public class TenthQ {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		char a='a',b='b';
+		System.out.println(a==b);
+		System.out.println(a!=b);
+		System.out.println(a>b);
+		System.out.println(a<b);
+		System.out.println(a>=b);
+		System.out.println(a<=b);
+	}
+
+}
+
+11. Write a Java program to check if a given year is a leap year using the ternary operator?
+
+package assignment2;
+
+public class EleventhQ {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int y=2024;
+	    String s=(y%4==0)?"leap year":"not leap year";
+	    System.out.println(s);
+	}
+
+}
+
+12. Write a Java program to determine the sign of a given number (positive, negative, or zero) using the ternary operator?
+
+package assignment2;
+
+public class TwelthQ {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int n= -5;
+		String val= (n>0)?("Positive"):(n<0?"Negative":"Zero");
+		System.out.println(val);
+	}
+
+}
+
+13. Write a Java function to swap two variables without using a third variable?
+
+package assignment2;
+
+public class ThirteenthQ {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int a=23,b=35;
+		a=a+b;
+		b=a-b;
+		a=a-b;
+		System.out.println(a);
+		System.out.println(b);
+	}
+
+}
+
+
+
+
